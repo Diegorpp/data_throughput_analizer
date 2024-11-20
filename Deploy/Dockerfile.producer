@@ -1,0 +1,5 @@
+from python:3.12
+
+COPY . .
+
+CMD [ "tail" , "-f", "/bin/bash"]
